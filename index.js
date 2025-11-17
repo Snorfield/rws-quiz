@@ -4,7 +4,7 @@ let quizUser = null;
 let users = [
     { name: "Garfield", answers: [0, 0, 0, 1, 2, 0, 0, 1, 0, 0], score: 0 },
     { name: "Rayne", answers: [0, 1, 1, 0, 0, 2, 1, 0, 0, 0], score: 0 },
-    { name: "Brass_Glass", answers: [0, 0, 0, 0, 5, 0, 0, 2, 0, 0], score: 0 },
+    { name: "BrassGlass", answers: [0, 0, 0, 0, 5, 0, 0, 2, 0, 0], score: 0 },
     { name: "Kat", answers: [0, 0, 2, 1, 1, 2, 0, 0, 0, 1], score: 0 },
     { name: "Tally", answers: [0, 0, 0, 1, 0, 2, 1, 0, 0, 0], score: 0 },
     { name: "Pix", answers: [1, 1, 1, 0, 5, 2, 0, 0, 0, 0], score: 0 },
@@ -127,4 +127,5 @@ for (user of users) {
 
 
 nextButton.addEventListener("click", handleNext);
+
 
