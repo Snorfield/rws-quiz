@@ -77,10 +77,11 @@ function handleNext() {
             container.appendChild(heading)
             nextButton.remove();
 
-            for (let i = 0; i < Math.min(5, users.length); i++) {
-                let item = document.createElement("h2");
-                item.classList.add("text");
-                item.textContent = `${users[i].name} with ${users[i].score} similarities`;
+            let item = document.createElement("h3");
+            item.classList.add("text");
+
+            for (let i = 0; i < users.length; i++) {
+                item.innerHTML += `${users[i].name} with ${users[i].score} similarities<br>`;
                 container.appendChild(item);
             }
         } else {
@@ -126,3 +127,4 @@ for (user of users) {
 
 
 nextButton.addEventListener("click", handleNext);
+
