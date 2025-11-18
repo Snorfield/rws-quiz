@@ -15,7 +15,9 @@ let users = [
     { name: "ddededodediamante", answers: [0, 0, 1, 1, 0, 2, 0, 2, 1, 0], score: 0 },
     { name: "peanutbutter_stuff", answers: [0, 1, 1, 0, 5, 0, 3, 2, 0, 0], score: 0 },
     { name: "Skribble", answers: [0, 0, 1, 0, 0, 0, 3, 2, 0, 0], score: 0 },
-    { name: "JustASeaCow", answers: [0, 0, 1, 1, 3, 2, 0, 0, 0, 0], score: 0 }
+    { name: "JustASeaCow", answers: [0, 0, 1, 1, 3, 2, 0, 0, 0, 0], score: 0 },
+    { name: "Yefoi", answers: [0, 1, 0, 2, 4, 2, 2, 0, 0, 0], score: 0 },
+    { name: "Eliza", answers: [0, 0, 1, 2, 4, 2, 0, 0, 0, 0], score: 0 }
 ];
 
 
@@ -127,5 +129,6 @@ for (user of users) {
 
 
 nextButton.addEventListener("click", handleNext);
+
 
 
