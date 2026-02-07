@@ -1,0 +1,101 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+:root {
+  --text-color: #ffffff;
+  --text-shadow: #260d34;
+  --background-color: #452459;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;;
+    overflow: hidden;
+    background: #FE6C90;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 108, 144, 1)), color-stop(8%, rgba(208, 55, 145, 1)), to(rgba(69, 36, 89, 1)));
+    background: -o-linear-gradient(bottom, rgba(254, 108, 144, 1) 0%, rgba(208, 55, 145, 1) 8%, rgba(69, 36, 89, 1) 100%);
+    background: linear-gradient(0deg, rgba(254, 108, 144, 1) 0%, rgba(208, 55, 145, 1) 8%, rgba(69, 36, 89, 1) 100%);
+}
+
+#container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+}
+
+.text {
+    text-align: center;
+    color: var(--text-color);
+    text-shadow: 2px 2px 0px var(--text-shadow);
+}
+
+#dropdown {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    background-color: var(--text-shadow);
+    color: #fbf5ef; 
+}
+
+#next {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    padding: 5px;
+    background-color: var(--text-shadow);
+    color: var(--text-color);
+    position: absolute;   
+    bottom: 20px;        
+    right: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+}
+
+#next:hover {
+    background-color: #452459;
+}
+
+.questions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+}
+
+input[type="radio"] {
+    -webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+            transform: scale(2.3);  
+    margin-right: 10px;
+}
+
+label {
+    font-size: 20px;
+    color: var(--text-color)
+}.box {
+    -webkit-box-shadow: 0 0 10px #cecece;
+            box-shadow: 0 0 10px #cecece;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+ }
